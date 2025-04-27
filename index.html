@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FART DICTIONARY</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <pre>FART DICTIONARY</pre>
+        <p>The funniest way to look up meme words!</p>
+    </header>
+
+    <main>
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="Type a fartcoin word...">
+            <button onclick="searchWord()">Search</button>
+        </div>
+
+        <div id="definition-container">
+            <pre id="word-title">Welcome to FARTCOIN Dictionary!</pre>
+            <pre id="word-definition">Start by searching for a funny word above.</pre>
+        </div>
+
+        <div id="random-word-container">
+            <button onclick="randomWord()">Get a Random Word</button>
+            <h3 id="random-word-title">Random Word: </h3>
+            <pre id="random-word-definition"></pre>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 FARTCOIN Dictionary. MEME INFLATION!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

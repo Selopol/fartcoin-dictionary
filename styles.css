@@ -1,0 +1,74 @@
+/* Global styles for Fartcoin */
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #000;
+    color: #0F0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #222;
+    text-align: center;
+    padding: 40px;
+    color: #FFF;
+    font-size: 18px;
+    border-bottom: 5px solid #0F0;
+}
+
+main {
+    padding: 20px;
+}
+
+#search-container input {
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    margin-top: 20px;
+    background-color: #333;
+    color: #0F0;
+    border: 2px solid #0F0;
+    border-radius: 5px;
+}
+
+#search-container button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #222;
+    color: #0F0;
+    border: 2px solid #0F0;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0F0;
+    color: #222;
+}
+
+#definition-container {
+    background-color: #111;
+    border: 3px solid #0F0;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#random-word-container {
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #222;
+    color: #0F0;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 16px;
+}
+
+footer p {
+    font-size: 14px;
+}
